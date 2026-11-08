@@ -135,6 +135,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Matsunaga\Scripts\Collision\Collision.cpp" />
+    <ClCompile Include="Matsunaga\Scripts\Input\Input.cpp" />
     <ClCompile Include="Matsunaga\Scripts\Meteorite\Meteorite.cpp" />
     <ClCompile Include="Matsunaga\Scripts\Vector\Vector.cpp" />
     <ClCompile Include="Scripts\Bullet.cpp" />
@@ -142,12 +144,15 @@
     <ClCompile Include="Scripts\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Matsunaga\Scripts\Collision\Collision.h" />
+    <ClInclude Include="Matsunaga\Scripts\Input\Input.h" />
     <ClInclude Include="Matsunaga\Scripts\Meteorite\Meteorite.h" />
     <ClInclude Include="Matsunaga\Scripts\Vector\Vector.h" />
     <ClInclude Include="Scripts\Bullet.h" />
     <ClInclude Include="Scripts\Earth.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Matsunaga\Scripts\Collision\Readme.txt" />
     <Text Include="Matsunaga\Scripts\Vector\Readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
